@@ -36,7 +36,13 @@
       <div class="splitter" aria-hidden="true"></div>
       <section class="pane preview-pane">
         <div class="pane-header"><span>PREVIEW</span><span class="pane-hint">A4 document</span></div>
-        <article class="paper" id="preview"></article>
+        <div class="preview-stage">
+          <div class="preview-pages" id="preview" aria-live="polite"></div>
+          <div class="preview-loading" id="preview-loading" role="status" hidden>
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Updating preview…</span>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="statusbar">

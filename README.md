@@ -2,6 +2,23 @@
 
 A lightweight desktop Markdown editor with a live preview and one-click PDF export.
 
+## Build the Windows executable
+
+Prerequisites: [Node.js](https://nodejs.org/) 20 or newer and npm.
+
+```powershell
+git clone https://github.com/thecodewrapper/markdown-to-pdf-converter.git
+cd markdown-to-pdf-converter
+npm install
+npm run build
+```
+
+The unpacked executable is created at:
+
+```text
+dist\win-unpacked\Markdown to PDF.exe
+```
+
 ## Run locally
 
 ```powershell
